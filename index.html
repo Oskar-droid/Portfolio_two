@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./img/slack.png">
+    <title>Landing</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="left_side">
+            <div class="wrapper">
+                <nav>
+                    <div class="logo"><img src="./img/slack.png" id="logo" alt="logo"
+                            style="width: 20px; height: 20px; margin-right: 10px;">
+                        <span>Landing<span>
+                    </div>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">How it works</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="content">
+                    <h1 style="margin: 0; font-family: Georgia; font-weight: 100;">Get in touch with us</h1><br>
+                    <p style="color: rgba(0, 0, 0, 0.705);">Get in touch with us and get 50% discount on
+                        best <br> quality proudcts.
+                    </p><br>
+                    <form id="form">
+                        <input type="email" placeholder="Type your email address here..." id="email">
+                        <button type="button" onclick="validateForm()">&rarr;</button>
+                    </form>
+                    <p style="display: none; color: red; position: absolute;" id="message"></p>
+                    <input type="checkbox" id="check">
+                    <label for="check">I agree <b style="text-decoration: underline;">terms of service</b></label>
+                </div>
+                <div class="social">
+                    <img src="./img/facebook.png" alt="facebook" class="social">
+                    <img src="./img/twitter.png" alt="twitter" class="social">
+                    <img src="./img/youtube.png" alt="youtube" class="social">
+                    <img src="./img/instagram.png" alt="instagram" class="social">
+                </div>
+            </div>
+        </div>
+        <div class="right_side"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
